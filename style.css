@@ -1,0 +1,104 @@
+h1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+h4 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+h5 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+h6 {
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+.nav-item {
+    font-family: "Noto Sans", sans-serif;
+}
+#Header-line{
+    background-color: #154D71;
+}
+.nav-link{
+    color: #fff;
+}
+#Header-line .nav-link.active {
+  color: white !important;
+}
+#Header-line .nav-pills .nav-link.active {
+  background-color: #1C6EA4;
+  color: white;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #154D71, #1C6EA4, #33A1E0, #FFF9AF, #BED4CB, #F6F09F);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.profile-img{
+    border-radius: 50%;
+}
+.btn-primary{
+    background-color: #154D71;
+    border-color: #154D71;
+}
+.text-home{
+    background-color: #fff;
+}
+.ba-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-section1{
+    background-color: #BED4CB;
+}
+.fancy-list {
+  list-style: none;   /* remove default bullets */
+  padding-left: 0;
+}
+
+.fancy-list li {
+  position: relative;
+  padding-left: 28px; /* space for the square */
+  margin-bottom: 8px;
+}
+
+.fancy-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 12px;
+  height: 12px;
+  background-color: #BED4CB; /* YOUR custom colour */
+}
+
